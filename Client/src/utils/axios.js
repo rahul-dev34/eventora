@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://eventora-backend-pz07.onrender.com',
   headers: {
     'Content-Type': 'application/json'  // JSON bhej rhe hain
   }
